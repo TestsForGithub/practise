@@ -22,6 +22,7 @@
     view.frame = CGRectMake(0, 0, 100, 100);
     view.backgroundColor = [UIColor redColor];
     [self.view addSubview:view];
+    // add by testForGitHub
 }
 
 - (void)didReceiveMemoryWarning {
