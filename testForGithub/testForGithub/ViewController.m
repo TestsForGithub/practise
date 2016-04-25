@@ -19,10 +19,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     // this is a practise for using github
     UIView *view = [[UIView alloc] init];
-    view.frame = CGRectMake(0, 0, 100, 100);
-    view.backgroundColor = [UIColor redColor];
+    view.frame = CGRectMake(100, 100, 100, 100);
+    view.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:view];
     // add by testForGitHub
+    // make change by testForGitHub
 }
 
 - (void)didReceiveMemoryWarning {
